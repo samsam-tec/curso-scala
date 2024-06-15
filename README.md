@@ -18,6 +18,40 @@ Scala es un lenguaje de programación creado por Martin Odersky y lanzado por pr
 
 - **Inmutabilidad por defecto**: Scala fomenta el uso de datos inmutables por defecto, lo cual es una característica común en la programación funcional. Esto ayuda a prevenir efectos secundarios no deseados y facilita la programación concurrente.
 
+# Guía para Instalar Scala en Windows
+
+### Paso 1: Descargar Scala
+
+1. Visita la página de descargas de Scala en [scala-lang.org](https://www.scala-lang.org/download/).
+
+2. Elige la versión de Scala que deseas instalar (por ejemplo, Scala 2.13.x).
+
+3. Descarga el instalador para Windows.
+
+### Paso 2: Ejecutar el Instalador
+
+1. Una vez descargado, haz doble clic en el archivo descargado para ejecutar el instalador.
+
+2. Sigue las instrucciones del instalador de Scala.
+
+### Paso 3: Verificar la Instalación
+
+1. Abre una nueva ventana de terminal (`cmd` o `PowerShell`).
+
+2. Escribe el siguiente comando y presiona Enter:
+
+```CMD
+scala -version
+```
+
+3. Deberías ver la versión de Scala instalada en tu sistema.
+
+### Notas Adicionales
+
+- Si deseas configurar variables de entorno manualmente, puedes añadir la ruta al directorio `bin` de Scala (`C:\Program Files (x86)\scala\bin`) a tu variable de entorno `Path`.
+
+- Asegúrate de tener Java Development Kit (JDK) instalado y configurado correctamente antes de instalar Scala, ya que Scala se ejecuta sobre la JVM.
+
 ## Ejemplos Básicos
 
 ### Hello World en Scala
